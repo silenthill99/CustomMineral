@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "custom_mineral:block/ulinite_ore"
+    }
+  }
+}
