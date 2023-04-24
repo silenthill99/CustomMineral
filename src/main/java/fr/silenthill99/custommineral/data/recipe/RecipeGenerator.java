@@ -21,21 +21,51 @@ public class RecipeGenerator extends RecipeProvider
             .save(consumer);
 
         ShapedRecipeBuilder.shaped(ModItems.ULINITE_PICKAXE.get())
-                .pattern("000")
-                .pattern(" 1 ")
-                .pattern(" 1 ")
-                .define('0', ModItems.ULINITE.get())
-                .define('1', Items.STICK)
-                .unlockedBy("unlock", InventoryChangeTrigger.Instance.hasItems(ModItems.ULINITE.get(), Items.STICK))
-                .save(consumer);
+            .pattern("000")
+            .pattern(" 1 ")
+            .pattern(" 1 ")
+            .define('0', ModItems.ULINITE.get())
+            .define('1', Items.STICK)
+            .unlockedBy("unlock", InventoryChangeTrigger.Instance.hasItems(ModItems.ULINITE.get(), Items.STICK))
+            .save(consumer);
 
         ShapedRecipeBuilder.shaped(ModItems.ULINITE_SWORD.get())
-                .pattern("0")
-                .pattern("0")
-                .pattern("1")
-                .define('0', ModItems.ULINITE.get())
-                .define('1', Items.STICK)
-                .unlockedBy("unlock", InventoryChangeTrigger.Instance.hasItems(ModItems.ULINITE.get(), Items.STICK))
-                .save(consumer);
+            .pattern("0")
+            .pattern("0")
+            .pattern("1")
+            .define('0', ModItems.ULINITE.get())
+            .define('1', Items.STICK)
+            .unlockedBy("unlock", InventoryChangeTrigger.Instance.hasItems(ModItems.ULINITE.get(), Items.STICK))
+            .save(consumer);
+
+        ShapedRecipeBuilder.shaped(ModItems.ULINITE_HELMET.get())
+            .pattern("000")
+            .pattern("0 0")
+            .define('0', ModItems.ULINITE.get())
+            .unlockedBy("unlock", InventoryChangeTrigger.Instance.hasItems(ModItems.ULINITE.get()))
+            .save(consumer);
+
+        ShapedRecipeBuilder.shaped(ModItems.ULINITE_CHESTPLATE.get())
+            .pattern("0 0")
+            .pattern("000")
+            .pattern("000")
+            .define('0', ModItems.ULINITE.get())
+            .unlockedBy("unlock", InventoryChangeTrigger.Instance.hasItems(ModItems.ULINITE.get()))
+            .save(consumer);
+
+        ShapedRecipeBuilder.shaped(ModItems.ULINITE_LEGGINGS.get())
+            .pattern("000")
+            .pattern("0 0")
+            .pattern("0 0")
+            .define('0', ModItems.ULINITE.get())
+            .unlockedBy("unlock", InventoryChangeTrigger.Instance.hasItems(ModItems.ULINITE.get()))
+            .save(consumer);
+
+    ShapedRecipeBuilder.shaped(ModItems.ULINITE_BOOTS.get())
+            .pattern("0 0")
+            .pattern("0 0")
+            .define('0', ModItems.ULINITE.get())
+            .unlockedBy("unlock", InventoryChangeTrigger.Instance.hasItems(ModItems.ULINITE.get()))
+            .save(consumer);
     }
 }
