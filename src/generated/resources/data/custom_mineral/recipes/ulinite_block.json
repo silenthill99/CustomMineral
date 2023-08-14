@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "custom_mineral:ulinite"
+    }
+  },
+  "result": {
+    "item": "custom_mineral:ulinite_block"
+  }
+}
