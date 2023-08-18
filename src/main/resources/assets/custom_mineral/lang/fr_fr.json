@@ -2,6 +2,13 @@
   "block.custom_mineral.ulinite_block": "Bloc d'ulinite",
   "block.custom_mineral.ulinite_ore": "Minerai d'ulinite",
   "item.custom_mineral.ulinite": "Ulinite",
+  "item.custom_mineral.ulinite_axe": "Hache en Ulinite",
+  "item.custom_mineral.ulinite_boots": "Bottes en Ulinite",
+  "item.custom_mineral.ulinite_chestplate": "Plastron en Ulinite",
+  "item.custom_mineral.ulinite_helmet": "Casque en Ulinite",
+  "item.custom_mineral.ulinite_hoe": "Houe en Ulinite",
+  "item.custom_mineral.ulinite_leggings": "Jambières en Ulinite",
   "item.custom_mineral.ulinite_pickaxe": "Pioche en ulinite",
+  "item.custom_mineral.ulinite_shovel": "Pelle en Ulinite",
   "item.custom_mineral.ulinite_sword": "Épée en Ulinite"
 }

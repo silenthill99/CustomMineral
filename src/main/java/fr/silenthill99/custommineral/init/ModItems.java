@@ -20,6 +20,8 @@ public class ModItems
     public static final RegistryObject<Item> ULINITE_PICKAXE = ITEMS.register("ulinite_pickaxe", () -> new PickaxeItem(CustomItemTiers.ULINITE_ITEMS, 0, 0, new Item.Properties().tab(ItemGroup.TAB_TOOLS).stacksTo(1)));
     public static final RegistryObject<Item> ULINITE_SWORD = ITEMS.register("ulinite_sword", () -> new SwordItem(CustomItemTiers.ULINITE_ITEMS, 0, 0, new Item.Properties().tab(ItemGroup.TAB_COMBAT).stacksTo(1)));
     public static final RegistryObject<Item> ULINITE_HOE = ITEMS.register("ulinite_hoe", () -> new HoeItem(CustomItemTiers.ULINITE_ITEMS, 0, 0, new Item.Properties().tab(ItemGroup.TAB_TOOLS).stacksTo(1)));
+    public static final RegistryObject<Item> ULINITE_AXE = ITEMS.register("ulinite_axe", () -> new AxeItem(CustomItemTiers.ULINITE_ITEMS, 0, 0, new Item.Properties().tab(ItemGroup.TAB_TOOLS).stacksTo(1)));
+    public static final RegistryObject<Item> ULINITE_SHOVEL = ITEMS.register("ulinite_shovel", () -> new ShovelItem(CustomItemTiers.ULINITE_ITEMS, 0, 0, new Item.Properties().tab(ItemGroup.TAB_TOOLS).stacksTo(1)));
 
     //Armures
     public static final RegistryObject<Item> ULINITE_HELMET = ITEMS.register("ulinite_helmet", () -> new ArmorItem(CustomArmorMaterial.ULINITE, EquipmentSlotType.HEAD, new Item.Properties().tab(ItemGroup.TAB_COMBAT).stacksTo(1)));

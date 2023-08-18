@@ -2,6 +2,13 @@
   "block.custom_mineral.ulinite_block": "Ulinite block",
   "block.custom_mineral.ulinite_ore": "Ulinite Ore",
   "item.custom_mineral.ulinite": "Ulinite",
+  "item.custom_mineral.ulinite_axe": "Ulinite Axe",
+  "item.custom_mineral.ulinite_boots": "Ulinite Boots",
+  "item.custom_mineral.ulinite_chestplate": "Ulinite chestplate",
+  "item.custom_mineral.ulinite_helmet": "Ulinite helmet",
+  "item.custom_mineral.ulinite_hoe": "Ulinite hoe",
+  "item.custom_mineral.ulinite_leggings": "Ulinite leggings",
   "item.custom_mineral.ulinite_pickaxe": "Ulinite Pickaxe",
+  "item.custom_mineral.ulinite_shovel": "Ulinite shovel",
   "item.custom_mineral.ulinite_sword": "Ulinite Sword"
 }

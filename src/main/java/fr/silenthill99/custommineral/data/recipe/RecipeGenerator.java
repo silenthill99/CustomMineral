@@ -85,11 +85,38 @@ public class RecipeGenerator extends RecipeProvider
             .save(consumer);
 
         ShapedRecipeBuilder.shaped(ModItems.ULINITE.get())
-                .pattern("000")
-                .pattern("000")
-                .pattern("000")
-                .define('0', ModItems.ULINITE_NUGGET.get())
-                .unlockedBy("unlock", InventoryChangeTrigger.Instance.hasItems(ModItems.ULINITE.get()))
-                .save(consumer, new ResourceLocation(Main.MODID, "ulinite_ingot_recipe"));
+            .pattern("000")
+            .pattern("000")
+            .pattern("000")
+            .define('0', ModItems.ULINITE_NUGGET.get())
+            .unlockedBy("unlock", InventoryChangeTrigger.Instance.hasItems(ModItems.ULINITE.get()))
+            .save(consumer, new ResourceLocation(Main.MODID, "ulinite_ingot_recipe"));
+
+        ShapedRecipeBuilder.shaped(ModItems.ULINITE_HOE.get())
+            .pattern("00")
+            .pattern(" 1")
+            .pattern(" 1")
+            .define('0', ModItems.ULINITE.get())
+            .define('1', Items.STICK)
+            .unlockedBy("unlock", InventoryChangeTrigger.Instance.hasItems(ModItems.ULINITE.get(), Items.STICK))
+            .save(consumer);
+
+        ShapedRecipeBuilder.shaped(ModItems.ULINITE_AXE.get())
+                .pattern("00")
+                .pattern("01")
+                .pattern(" 1")
+                .define('0', ModItems.ULINITE.get())
+                .define('1', Items.STICK)
+                .unlockedBy("unlock", InventoryChangeTrigger.Instance.hasItems(ModItems.ULINITE.get(), Items.STICK))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(ModItems.ULINITE_SHOVEL.get())
+                .pattern("0")
+                .pattern("1")
+                .pattern("1")
+                .define('0', ModItems.ULINITE.get())
+                .define('1', Items.STICK)
+                .unlockedBy("unlock", InventoryChangeTrigger.Instance.hasItems(ModItems.ULINITE.get(), Items.STICK))
+                .save(consumer);
     }
 }
