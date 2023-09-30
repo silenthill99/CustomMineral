@@ -1,4 +1,6 @@
 {
   "parent":"item/generated",
-  "textures": "custom_mineral:item/amethyst"
+  "textures": {
+    "layer0": "custom_mineral:item/amethyst"
+  }
 }

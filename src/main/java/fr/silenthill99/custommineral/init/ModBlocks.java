@@ -17,13 +17,14 @@ import java.util.function.Supplier;
 public class ModBlocks
 {
     public static final DeferredRegister<Block> BLOCK = DeferredRegister.create(ForgeRegistries.BLOCKS, Main.MODID);
-    public static final RegistryObject<Block> ULINITE_ORE = createBlock("ulinite_ore", () -> new Block(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).harvestLevel(2).requiresCorrectToolForDrops().strength(10.0f, 15f)), () -> new BlockItem(ModBlocks.ULINITE_ORE.get(), new Item.Properties().tab(ItemGroup.TAB_BUILDING_BLOCKS)));
-    public static final RegistryObject<Block> ULINITE_BLOCK = createBlock("ulinite_block", () -> new Block(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).harvestLevel(2).requiresCorrectToolForDrops().strength(10.0f, 15f)), () -> new BlockItem(ModBlocks.ULINITE_BLOCK.get(), new Item.Properties().tab(ItemGroup.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<Block> ULINITE_ORE = createBlock("ulinite_ore", () -> new Block(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).harvestLevel(2).requiresCorrectToolForDrops().strength(10.0f, 15f)));
+    public static final RegistryObject<Block> ULINITE_BLOCK = createBlock("ulinite_block", () -> new Block(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).harvestLevel(2).requiresCorrectToolForDrops().strength(10.0f, 15f)));
+    public static final RegistryObject<Block> AMETHYST_ORE = createBlock("amethyst_ore", () -> new Block(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).harvestLevel(2).requiresCorrectToolForDrops().strength(10f, 15f)));
 
-    private static RegistryObject<Block> createBlock(String name, Supplier<? extends Block> block, Supplier<? extends Item> item)
+    private static RegistryObject<Block> createBlock(String name, Supplier<? extends Block> block)
     {
         RegistryObject<Block> bloc = BLOCK.register(name, block);
-        ModItems.ITEMS.register(name, item);
+        ModItems.ITEMS.register(name, () -> new BlockItem(bloc.get(), new Item.Properties().tab(ItemGroup.TAB_BUILDING_BLOCKS)));
         return bloc;
     }
 }
