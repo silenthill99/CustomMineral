@@ -15,6 +15,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 public class ModFeatures
 {
     public ConfiguredFeature<?,?> ULINITE_ORE_FEATURE;
+    public ConfiguredFeature<?,?> AMETHYST_ORE_FEATURE;
 
     public void init()
     {
@@ -22,6 +23,11 @@ public class ModFeatures
                 .squared()
                 .range(18)
                 .count(20));
+
+        AMETHYST_ORE_FEATURE = register("amethyst_ore_feature", Feature.ORE.configured(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.AMETHYST_ORE.get().defaultBlockState(), 3))
+                .squared()
+                .range(6)
+                .range(3));
     }
 
     public <FC extends IFeatureConfig> ConfiguredFeature<FC, ?> register(String name, ConfiguredFeature<FC, ?> feature)
@@ -36,6 +42,7 @@ public class ModFeatures
         if (event.getCategory() != Biome.Category.NETHER)
         {
             generation.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, ULINITE_ORE_FEATURE);
+            generation.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, AMETHYST_ORE_FEATURE);
         }
     }
 }
