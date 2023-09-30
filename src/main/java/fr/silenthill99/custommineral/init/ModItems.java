@@ -15,6 +15,7 @@ public class ModItems
     
     public static final RegistryObject<Item> ULINITE = ITEMS.register("ulinite", () -> new Item(new Item.Properties().tab(ItemGroup.TAB_MATERIALS)));
     public static final RegistryObject<Item> ULINITE_NUGGET = ITEMS.register("ulinite_nugget", () -> new Item(new Item.Properties().tab(ItemGroup.TAB_MATERIALS)));
+    public static final RegistryObject<Item> AMETHYST = ITEMS.register("amethyst", () -> new Item(new Item.Properties().tab(ItemGroup.TAB_MATERIALS)));
 
     //Items d'outils
     public static final RegistryObject<Item> ULINITE_PICKAXE = ITEMS.register("ulinite_pickaxe", () -> new PickaxeItem(CustomItemTiers.ULINITE_ITEMS, 0, 0, new Item.Properties().tab(ItemGroup.TAB_TOOLS).stacksTo(1)));
