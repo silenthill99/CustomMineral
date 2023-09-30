@@ -1,8 +1,8 @@
 {
+  "block.custom_mineral.amethyst_ore": "Minerai d'amethyst",
   "block.custom_mineral.ulinite_block": "Bloc d'ulinite",
   "block.custom_mineral.ulinite_ore": "Minerai d'ulinite",
   "item.custom_mineral.amethyst": "Amethyst",
-  "item.custom_mineral.amethyst_ore": "Minerai d'amethyst",
   "item.custom_mineral.ulinite": "Ulinite",
   "item.custom_mineral.ulinite_axe": "Hache en Ulinite",
   "item.custom_mineral.ulinite_boots": "Bottes en Ulinite",
