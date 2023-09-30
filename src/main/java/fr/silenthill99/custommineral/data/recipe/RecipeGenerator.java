@@ -118,5 +118,9 @@ public class RecipeGenerator extends RecipeProvider
                 .define('1', Items.STICK)
                 .unlockedBy("unlock", InventoryChangeTrigger.Instance.hasItems(ModItems.ULINITE.get(), Items.STICK))
                 .save(consumer);
+
+        CookingRecipeBuilder.smelting(Ingredient.of(ModBlocks.AMETHYST_ORE.get()), ModItems.AMETHYST.get(), 0.15f, 200)
+                .unlockedBy("unlock", InventoryChangeTrigger.Instance.hasItems(ModBlocks.AMETHYST_ORE.get()))
+                .save(consumer, new ResourceLocation(Main.MODID, "amethyst_smelting"));
     }
 }
