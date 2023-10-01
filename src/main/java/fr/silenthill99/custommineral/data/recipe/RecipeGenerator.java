@@ -119,6 +119,51 @@ public class RecipeGenerator extends RecipeProvider
                 .unlockedBy("unlock", InventoryChangeTrigger.Instance.hasItems(ModItems.ULINITE.get(), Items.STICK))
                 .save(consumer);
 
+        ShapedRecipeBuilder.shaped(ModItems.AMETHYST_PICKAXE.get())
+                .pattern("000")
+                .pattern(" 1 ")
+                .pattern(" 1 ")
+                .define('0', ModItems.AMETHYST.get())
+                .define('1', Items.STICK)
+                .unlockedBy("unlock", InventoryChangeTrigger.Instance.hasItems(ModItems.AMETHYST.get(), Items.STICK))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(ModItems.AMETHYST_SWORD.get())
+                .pattern("0")
+                .pattern("0")
+                .pattern("1")
+                .define('0', ModItems.AMETHYST.get())
+                .define('1', Items.STICK)
+                .unlockedBy("unlock", InventoryChangeTrigger.Instance.hasItems(ModItems.AMETHYST.get(), Items.STICK))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(ModItems.AMETHYST_HOE.get())
+                .pattern("00")
+                .pattern(" 1")
+                .pattern(" 1")
+                .define('0', ModItems.AMETHYST.get())
+                .define('1', Items.STICK)
+                .unlockedBy("unlock", InventoryChangeTrigger.Instance.hasItems(ModItems.AMETHYST.get(), Items.STICK))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(ModItems.AMETHYST_AXE.get())
+                .pattern("00")
+                .pattern("01")
+                .pattern(" 1")
+                .define('0', ModItems.AMETHYST.get())
+                .define('1', Items.STICK)
+                .unlockedBy("unlock", InventoryChangeTrigger.Instance.hasItems(ModItems.AMETHYST.get(), Items.STICK))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(ModItems.AMETHYST_SHOVEL.get())
+                .pattern("0")
+                .pattern("1")
+                .pattern("1")
+                .define('0', ModItems.AMETHYST.get())
+                .define('1', Items.STICK)
+                .unlockedBy("unlock", InventoryChangeTrigger.Instance.hasItems(ModItems.AMETHYST.get(), Items.STICK))
+                .save(consumer);
+
         CookingRecipeBuilder.smelting(Ingredient.of(ModBlocks.AMETHYST_ORE.get()), ModItems.AMETHYST.get(), 0.15f, 200)
                 .unlockedBy("unlock", InventoryChangeTrigger.Instance.hasItems(ModBlocks.AMETHYST_ORE.get()))
                 .save(consumer, new ResourceLocation(Main.MODID, "amethyst_smelting"));

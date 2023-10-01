@@ -24,6 +24,12 @@ public class ModItems
     public static final RegistryObject<Item> ULINITE_AXE = ITEMS.register("ulinite_axe", () -> new AxeItem(CustomItemTiers.ULINITE_ITEMS, 0, 0, new Item.Properties().tab(ItemGroup.TAB_TOOLS).stacksTo(1)));
     public static final RegistryObject<Item> ULINITE_SHOVEL = ITEMS.register("ulinite_shovel", () -> new ShovelItem(CustomItemTiers.ULINITE_ITEMS, 0, 0, new Item.Properties().tab(ItemGroup.TAB_TOOLS).stacksTo(1)));
 
+    public static final RegistryObject<Item> AMETHYST_PICKAXE = ITEMS.register("amethyst_pickaxe" , () -> new PickaxeItem(CustomItemTiers.AMETHYST_ITEMS, 0, 0, new Item.Properties().tab(ItemGroup.TAB_TOOLS).stacksTo(1)));
+    public static final RegistryObject<Item> AMETHYST_SWORD = ITEMS.register("amethyst_sword" , () -> new SwordItem(CustomItemTiers.AMETHYST_ITEMS, 0, 0, new Item.Properties().tab(ItemGroup.TAB_TOOLS).stacksTo(1)));
+    public static final RegistryObject<Item> AMETHYST_HOE = ITEMS.register("amethyst_hoe" , () -> new HoeItem(CustomItemTiers.AMETHYST_ITEMS, 0, 0, new Item.Properties().tab(ItemGroup.TAB_TOOLS).stacksTo(1)));
+    public static final RegistryObject<Item> AMETHYST_AXE = ITEMS.register("amethyst_axe" , () -> new AxeItem(CustomItemTiers.AMETHYST_ITEMS, 0, 0, new Item.Properties().tab(ItemGroup.TAB_TOOLS).stacksTo(1)));
+    public static final RegistryObject<Item> AMETHYST_SHOVEL = ITEMS.register("amethyst_shovel" , () -> new ShovelItem(CustomItemTiers.AMETHYST_ITEMS, 0, 0, new Item.Properties().tab(ItemGroup.TAB_TOOLS).stacksTo(1)));
+
     //Armures
     public static final RegistryObject<Item> ULINITE_HELMET = ITEMS.register("ulinite_helmet", () -> new ArmorItem(CustomArmorMaterial.ULINITE, EquipmentSlotType.HEAD, new Item.Properties().tab(ItemGroup.TAB_COMBAT).stacksTo(1)));
     public static final RegistryObject<Item> ULINITE_CHESTPLATE = ITEMS.register("ulinite_chestplate", () -> new ArmorItem(CustomArmorMaterial.ULINITE, EquipmentSlotType.CHEST, new Item.Properties().tab(ItemGroup.TAB_COMBAT).stacksTo(1)));

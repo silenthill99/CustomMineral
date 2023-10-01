@@ -2,8 +2,6 @@ package fr.silenthill99.custommineral.utils;
 
 import fr.silenthill99.custommineral.init.ModItems;
 import net.minecraft.item.IItemTier;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.util.LazyValue;
 
@@ -11,7 +9,8 @@ import java.util.function.Supplier;
 
 public enum CustomItemTiers implements IItemTier
 {
-    ULINITE_ITEMS(5, 200, 8.0f, 3.0f, 18, () -> Ingredient.of(ModItems.ULINITE.get()))
+    ULINITE_ITEMS(5, 200, 8.0f, 3.0f, 18, () -> Ingredient.of(ModItems.ULINITE.get())),
+    AMETHYST_ITEMS(10, 1000, 24F, 40F, 50, () -> Ingredient.of(ModItems.AMETHYST.get()))
     ;
     private final int level;
     private final int uses;
