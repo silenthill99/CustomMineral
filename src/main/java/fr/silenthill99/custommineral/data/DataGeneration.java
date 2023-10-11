@@ -1,6 +1,7 @@
 package fr.silenthill99.custommineral.data;
 
 import fr.silenthill99.custommineral.Main;
+import fr.silenthill99.custommineral.data.loot_tables.ModlootTables;
 import fr.silenthill99.custommineral.data.recipe.RecipeGenerator;
 import net.minecraft.data.DataGenerator;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -17,6 +18,7 @@ public class DataGeneration {
         if (event.includeServer())
         {
             generator.addProvider(new RecipeGenerator(generator));
+            generator.addProvider(new ModlootTables(generator));
         }
     }
 }
