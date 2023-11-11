@@ -1,13 +1,13 @@
-[11oct.2023 20:27:34.624] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--mod, custom_mineral, --all, --output, D:\Minecraft\mods minecraft\CustomMineral\src\generated\resources, --existing, D:\Minecraft\mods minecraft\CustomMineral\src\main\resources, --gameDir, ., --launchTarget, fmluserdevdata, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 36.2.39, --assetIndex, 1.16, --assetsDir, D:\Gradle\caches\forge_gradle\assets]
-[11oct.2023 20:27:34.629] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.1.3+8.1.3+main-8.1.x.c94d18ec starting: java version 1.8.0_202 by Oracle Corporation
-[11oct.2023 20:27:35.720] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[11oct.2023 20:27:35.791] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/D:/Gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.4/4ec7d77d9ab32596ca0b78bb123956734767e3a/mixin-0.8.4.jar Service=ModLauncher Env=CLIENT
-[11oct.2023 20:27:38.566] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevdata' with arguments [--gameDir, ., --assetsDir, D:\Gradle\caches\forge_gradle\assets, --mod, custom_mineral, --all, --output, D:\Minecraft\mods minecraft\CustomMineral\src\generated\resources, --existing, D:\Minecraft\mods minecraft\CustomMineral\src\main\resources, --assetIndex, 1.16]
-[11oct.2023 20:27:38.764] [main/INFO] [net.minecraftforge.fml.DatagenModLoader/]: Initializing Data Gatherer for mods [custom_mineral]
-[11oct.2023 20:27:51.860] [modloading-worker-3/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.39, for MC 1.16.5 with MCP 20210115.111550
-[11oct.2023 20:27:51.912] [modloading-worker-3/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.39 Initialized
-[11oct.2023 20:27:53.767] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[11oct.2023 20:27:53.950] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 182 ms
-[11oct.2023 20:27:53.950] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: LootTables
-[11oct.2023 20:27:54.104] [main/INFO] [net.minecraft.data.DataGenerator/]: LootTables finished after 153 ms
-[11oct.2023 20:27:54.104] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 337 ms
+[21oct.2023 20:29:20.351] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--mod, custom_mineral, --all, --output, D:\Minecraft\mods minecraft\CustomMineral\src\generated\resources, --existing, D:\Minecraft\mods minecraft\CustomMineral\src\main\resources, --gameDir, ., --launchTarget, fmluserdevdata, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 36.2.39, --assetIndex, 1.16, --assetsDir, D:\Gradle\caches\forge_gradle\assets]
+[21oct.2023 20:29:20.599] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.1.3+8.1.3+main-8.1.x.c94d18ec starting: java version 1.8.0_202 by Oracle Corporation
+[21oct.2023 20:29:21.875] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[21oct.2023 20:29:21.999] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/D:/Gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.4/4ec7d77d9ab32596ca0b78bb123956734767e3a/mixin-0.8.4.jar Service=ModLauncher Env=CLIENT
+[21oct.2023 20:29:25.906] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevdata' with arguments [--gameDir, ., --assetsDir, D:\Gradle\caches\forge_gradle\assets, --mod, custom_mineral, --all, --output, D:\Minecraft\mods minecraft\CustomMineral\src\generated\resources, --existing, D:\Minecraft\mods minecraft\CustomMineral\src\main\resources, --assetIndex, 1.16]
+[21oct.2023 20:29:27.030] [main/INFO] [net.minecraftforge.fml.DatagenModLoader/]: Initializing Data Gatherer for mods [custom_mineral]
+[21oct.2023 20:29:50.792] [modloading-worker-3/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.39, for MC 1.16.5 with MCP 20210115.111550
+[21oct.2023 20:29:50.799] [modloading-worker-3/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.39 Initialized
+[21oct.2023 20:29:53.629] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[21oct.2023 20:29:54.795] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 1164 ms
+[21oct.2023 20:29:54.795] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: LootTables
+[21oct.2023 20:29:54.948] [main/INFO] [net.minecraft.data.DataGenerator/]: LootTables finished after 151 ms
+[21oct.2023 20:29:54.948] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 1319 ms

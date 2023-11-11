@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "custom_mineral:ulinite_ore"
+  },
+  "result": "custom_mineral:ulinite",
+  "experience": 0.15,
+  "cookingtime": 200
+}
