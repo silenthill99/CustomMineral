@@ -75,3 +75,24 @@
 [11nov.2023 18:45:58.268] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nouveau monde]'/minecraft:overworld
 [11nov.2023 18:46:02.759] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nouveau monde]'/minecraft:the_nether
 [11nov.2023 18:46:02.762] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nouveau monde]'/minecraft:the_end
+[11nov.2023 18:46:54.958] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2 advancements
+[11nov.2023 18:47:05.856] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[11nov.2023 18:47:05.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nouveau monde]'/minecraft:overworld
+[11nov.2023 18:47:06.379] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nouveau monde]'/minecraft:the_nether
+[11nov.2023 18:47:06.381] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nouveau monde]'/minecraft:the_end
+[11nov.2023 18:47:07.192] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Déconnecté(e)
+[11nov.2023 18:47:07.193] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev a quitté la partie
+[11nov.2023 18:47:07.209] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
+[11nov.2023 18:47:07.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[11nov.2023 18:47:07.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[11nov.2023 18:47:07.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[11nov.2023 18:47:07.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nouveau monde]'/minecraft:overworld
+[11nov.2023 18:47:07.719] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (Nouveau monde): All chunks are saved
+[11nov.2023 18:47:07.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nouveau monde]'/minecraft:the_nether
+[11nov.2023 18:47:07.722] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11nov.2023 18:47:07.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Nouveau monde]'/minecraft:the_end
+[11nov.2023 18:47:07.723] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11nov.2023 18:47:07.920] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (Nouveau monde): All chunks are saved
+[11nov.2023 18:47:08.211] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11nov.2023 18:47:08.213] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11nov.2023 18:47:10.693] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
