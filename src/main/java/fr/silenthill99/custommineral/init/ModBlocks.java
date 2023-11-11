@@ -21,7 +21,7 @@ public class ModBlocks
     public static final RegistryObject<Block> ULINITE_ORE = createBlock("ulinite_ore", () -> new Block(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).harvestLevel(2).requiresCorrectToolForDrops().strength(10.0f, 15f)));
     public static final RegistryObject<Block> ULINITE_BLOCK = createBlock("ulinite_block", () -> new Block(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).harvestLevel(2).requiresCorrectToolForDrops().strength(10.0f, 15f)));
     public static final RegistryObject<Block> AMETHYST_ORE = createBlock("amethyst_ore", () -> new Block(AbstractBlock.Properties.of(Material.STONE).harvestTool(ToolType.PICKAXE).harvestLevel(2).requiresCorrectToolForDrops().strength(10f, 15f)));
-    public static final RegistryObject<Block> ULINITE_STAIRS = createBlock("amethyst_stairs", () -> new StairsBlock(() -> ModBlocks.ULINITE_BLOCK.get().defaultBlockState(), AbstractBlock.Properties.copy(ModBlocks.ULINITE_BLOCK.get())));
+    public static final RegistryObject<Block> ULINITE_STAIRS = createBlock("ulinite_stairs", () -> new StairsBlock(() -> ModBlocks.ULINITE_BLOCK.get().defaultBlockState(), AbstractBlock.Properties.copy(ModBlocks.ULINITE_BLOCK.get())));
 
     private static RegistryObject<Block> createBlock(String name, Supplier<? extends Block> block)
     {
