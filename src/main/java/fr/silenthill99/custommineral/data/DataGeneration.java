@@ -3,6 +3,7 @@ package fr.silenthill99.custommineral.data;
 import fr.silenthill99.custommineral.Main;
 import fr.silenthill99.custommineral.data.loot_tables.ModlootTables;
 import fr.silenthill99.custommineral.data.models_and_blockstates.BlockStateGenerator;
+import fr.silenthill99.custommineral.data.models_and_blockstates.ItemModelGenerator;
 import fr.silenthill99.custommineral.data.recipe.RecipeGenerator;
 import net.minecraft.data.DataGenerator;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -20,6 +21,7 @@ public class DataGeneration {
 
         if (event.includeClient()) {
             generator.addProvider(new BlockStateGenerator(generator, existingFileHelper));
+            generator.addProvider(new ItemModelGenerator(generator, existingFileHelper));
         }
 
         if (event.includeServer())

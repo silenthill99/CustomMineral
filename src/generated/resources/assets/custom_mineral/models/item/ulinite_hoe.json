@@ -1,7 +1,6 @@
 {
-  "parent": "item/handheld",
-  "textures":
-  {
+  "parent": "minecraft:item/handheld",
+  "textures": {
     "layer0": "custom_mineral:item/ulinite_hoe"
   }
 }
