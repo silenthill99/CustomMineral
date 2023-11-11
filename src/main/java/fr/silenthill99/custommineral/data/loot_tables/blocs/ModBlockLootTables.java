@@ -16,9 +16,10 @@ import java.util.stream.Collectors;
 public class ModBlockLootTables extends BlockLootTables {
     @Override
     protected void addTables() {
-        this.dropSelf(ModBlocks.ULINITE_BLOCK.get());
-        this.dropSelf(ModBlocks.ULINITE_ORE.get());
-        this.add(ModBlocks.AMETHYST_ORE.get(), (ore) -> createSilkTouchDispatchTable(ore, applyExplosionDecay(ore, ItemLootEntry.lootTableItem(ModItems.AMETHYST.get()).apply(SetCount.setCount(RandomValueRange.between(2, 10))).apply(ApplyBonus.addUniformBonusCount(Enchantments.BLOCK_FORTUNE)))));
+        dropSelf(ModBlocks.ULINITE_BLOCK.get());
+        dropSelf(ModBlocks.ULINITE_ORE.get());
+        dropSelf(ModBlocks.ULINITE_STAIRS.get());
+        add(ModBlocks.AMETHYST_ORE.get(), (ore) -> createSilkTouchDispatchTable(ore, applyExplosionDecay(ore, ItemLootEntry.lootTableItem(ModItems.AMETHYST.get()).apply(SetCount.setCount(RandomValueRange.between(2, 10))).apply(ApplyBonus.addUniformBonusCount(Enchantments.BLOCK_FORTUNE)))));
     }
 
     @SuppressWarnings("NullableProblems")

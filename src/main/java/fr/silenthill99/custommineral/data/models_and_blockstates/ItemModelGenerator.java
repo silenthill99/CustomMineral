@@ -1,6 +1,7 @@
 package fr.silenthill99.custommineral.data.models_and_blockstates;
 
 import fr.silenthill99.custommineral.Main;
+import fr.silenthill99.custommineral.init.ModBlocks;
 import fr.silenthill99.custommineral.init.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.data.DataGenerator;
@@ -35,6 +36,7 @@ public class ItemModelGenerator extends ItemModelProvider {
         handheldItem(ModItems.ULINITE_PICKAXE);
         handheldItem(ModItems.ULINITE_SHOVEL);
         handheldItem(ModItems.ULINITE_SWORD);
+        customBlock(ModBlocks.ULINITE_STAIRS);
     }
 
     private ItemModelBuilder generatedItem(RegistryObject<Item> item) {

@@ -6,6 +6,8 @@
       <excludeFolder url="file://$MODULE_DIR$/../../run/mods" />
       <excludeFolder url="file://$MODULE_DIR$/../../run/resourcepacks" />
       <excludeFolder url="file://$MODULE_DIR$/../../run/saves/Nouveau monde" />
+      <excludeFolder url="file://$MODULE_DIR$/../../run" />
+      <excludeFolder url="file://$MODULE_DIR$/../../run/saves" />
     </content>
   </component>
 </module>
