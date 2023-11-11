@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "custom_mineral:amethyst_stairs"
+          "name": "custom_mineral:ulinite_stairs"
         }
       ],
       "conditions": [
