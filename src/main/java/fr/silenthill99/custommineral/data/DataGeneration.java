@@ -2,8 +2,10 @@ package fr.silenthill99.custommineral.data;
 
 import fr.silenthill99.custommineral.Main;
 import fr.silenthill99.custommineral.data.loot_tables.ModlootTables;
+import fr.silenthill99.custommineral.data.models_and_blockstates.BlockStateGenerator;
 import fr.silenthill99.custommineral.data.recipe.RecipeGenerator;
 import net.minecraft.data.DataGenerator;
+import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.GatherDataEvent;
@@ -14,6 +16,11 @@ public class DataGeneration {
     public static void gatherData(final GatherDataEvent event)
     {
         DataGenerator generator = event.getGenerator();
+        ExistingFileHelper existingFileHelper = event.getExistingFileHelper();
+
+        if (event.includeClient()) {
+            generator.addProvider(new BlockStateGenerator(generator, existingFileHelper));
+        }
 
         if (event.includeServer())
         {
