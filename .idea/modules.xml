@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/CustomMineral.iml" filepath="$PROJECT_DIR$/.idea/modules/CustomMineral.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/CustomMineral.main.iml" filepath="$PROJECT_DIR$/.idea/modules/CustomMineral.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/CustomMineral.test.iml" filepath="$PROJECT_DIR$/.idea/modules/CustomMineral.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/IdeaProjects.CustomMineral.main.iml" filepath="$PROJECT_DIR$/.idea/modules/IdeaProjects.CustomMineral.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/IdeaProjects.CustomMineral.test.iml" filepath="$PROJECT_DIR$/.idea/modules/IdeaProjects.CustomMineral.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/fr.silenthill99.CustomMineral.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fr.silenthill99.CustomMineral.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/fr.silenthill99.CustomMineral.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fr.silenthill99.CustomMineral.test.iml" />
     </modules>
